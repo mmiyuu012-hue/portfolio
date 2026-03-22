@@ -1,0 +1,284 @@
+/* リセット */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* 全体設定 */
+
+
+body{
+    background: #fff;
+    font-family: 'Noto Sans JP Regular';
+    color: #222;
+    overflow-x: hidden;
+    -webkit-print-color-adjust: exact;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0  auto;
+    
+}
+
+section {
+    page-break-inside: avoid;
+}
+
+.about-me,.LP,.step,.task {
+    margin-top: 220px;
+}
+
+/* フォント */
+h1{
+    font-size: 51px;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 0.2;
+}
+
+h3{
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+}
+
+h4{
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+}
+
+p.portofolio{
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+}
+
+p.subhead{
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+}
+
+p.about{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    line-height: 2.3;
+}
+
+p.lp-head{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+}
+
+p.lp-subhead{
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.2;
+    line-height: 1.87;
+}
+
+p.step-head{
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+}
+
+p.thank-you{
+    font-family: 'Noto serif JP';
+    font-size: 24px;
+    font-weight: 150;
+    letter-spacing: 0.2em;
+}
+
+/* 表紙 */
+.cover{
+    text-align: center;
+    padding: 300px ;
+}
+
+/* 自己紹介 */
+.about-me{
+    margin-left: 30px;
+}
+
+.skill{
+    padding:  20px;
+    
+}
+
+/* 作品 */
+.lp{
+    padding: 60px 20px;
+}
+
+.op{
+    margin-left: 100px;
+}
+
+.op h4{
+    margin-bottom: 20px;
+}
+.slow-bean{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.lp-main-img{
+    display: block;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto 56px;
+}
+
+.explan{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.explan-item{
+    margin-bottom: 150px;
+}
+
+.lp-subhead{
+    margin-left: 10px;
+}
+
+.img-label{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+}
+
+.lp-sub-img{
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto 0;
+}
+
+
+/* 作品の流れ */
+
+.step {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 120px 20px;
+}
+
+.step h4{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.step-list {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.step-item {
+    position: relative;
+}
+
+.step-number {
+    position: absolute;
+    top: -50px;
+    left: 30px;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: #f1ece7;
+}
+
+.step-card {
+    background: #f8f6f3;
+    border: 2px solid #4f695d;
+    border-radius: 36px;
+    padding: 34px 48px;
+    box-shadow: 14px 14px 0 #ece8e3;
+}
+
+.step-head {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.step-text {
+    font-size: 16px;
+    line-height: 1.9;
+    color: #333;
+}
+
+/* 横位置 */
+.step-item.left .step-card {
+    width: 760px;
+    margin-left: 140px;
+}
+
+.step-item.right .step-card {
+    width: 620px;
+    margin-left: 100px;
+}
+
+.step-item.center .step-card {
+    width: 640px;
+    margin-left: 200px;
+}
+
+.step-item.left.small .step-card {
+    width: 600px;
+    margin-left: 150px;
+}
+
+/* STEP文字の位置微調整 */
+.step-item.left .step-number {
+    left: 170px;
+}
+
+.step-item.right .step-number {
+    left: 130px;
+}
+
+.step-item.center .step-number {
+    left: 190px;
+}
+
+.step-item.left.small .step-number {
+    left: 150px;
+}
+
+
+/* 課題 */
+.task-card{
+    text-align: center;
+}
+
+h4{
+    margin-bottom: 20px;
+}
+
+.tky{
+    text-align: center;
+    margin: 500px auto;
+}
+
+.tky p.subhead{
+    text-align: center;
+
+}
